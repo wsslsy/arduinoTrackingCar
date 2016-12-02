@@ -2,13 +2,13 @@
 //  智能小车黑线循迹
 //============================================================
 
-int Left_motor_go=9;             // 左电机前进(IN1)
-int Left_motor_back=5;           // 左电机后退(IN2)
-int Right_motor_go=10;           // 右电机前进(IN3)
-int Right_motor_back=11;         // 右电机后退(IN4)
+int Left_motor_go=6;             // 左电机前进(IN1)
+int Left_motor_back=11;           // 左电机后退(IN2)
+int Right_motor_go=5;           // 右电机前进(IN3)
+int Right_motor_back=3;         // 右电机后退(IN4)
 
-const int SensorRight = 3;   	   // 右循迹红外传感器(P3.2 OUT1)
-const int SensorLeft = 4;        // 左循迹红外传感器(P3.3 OUT2)
+const int SensorRight = 1;   	   // 右循迹红外传感器
+const int SensorLeft = 2;        // 左循迹红外传感器
 
 int SL;                          // 左循迹红外传感器状态
 int SR;                          // 右循迹红外传感器状态
